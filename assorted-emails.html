@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Chantel Cote | Graphic Designer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/cotePortfolioStyle.css">
+	<script src="js/cotePortfolioJavaScript.js"></script>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="img/favicon-16.png">
+	<link rel="icon" type="image/png" href="img/favicon-32.png">
+	<link rel="icon" type="image/png" href="img/favicon-48.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180.png">
+	<link rel="icon" sizes="270x270" href="img/tile-icon-270.png">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Judson" rel="stylesheet">
+	<!-- icon font -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="homepage">
+<!-- top menu/ main navigation-->
+	<header>
+		<nav id="globalNav" class="global-nav">
+			<div id="nav-container">
+				<!-- pull left -->
+				<div id="pull-left">
+					<div class="social">
+						<a target="_blank" href="mailto:hello@chantelcote.com?subject=Let's%20work%20together" class="fa fa-envelope"></a>
+						<a target="_blank" href="https://www.linkedin.com/in/chantel-cote/" class="fa fa-linkedin"></a>
+						<a target="_blank" href="https://www.behance.net/chanteljcote" class="fa fa-behance"></a>
+						<a target="_blank" href="https://www.github.com/cotedesign" class="fa fa-github"></a>
+					</div>
+				</div>
+				<!-- pull middle -->
+				<div id="pull-middle">
+					<a href="index.html"><img src="img/logo-800-gradient.png" id="nav-logo" alt="CC Logo"></a>
+					<h2 id="site-title">CHANTEL COTE</h2>
+					<h4 id="site-title2">Graphic Designer</h4>
+				</div>
+				<!-- pull right -->
+				<div id="pull-right">
+					<div onclick="menuDropdown()" class="menu-dropbtn" id="menuChange">
+						<div class="bars">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+						<div class="menu-oval"></div>
+					</div>
+				</div>
+			</div>
+			<div class="nav-line"></div>
+			<div class="nav-list" id="navList">
+				<div class="list-item nav1"><a href="index.html">HOME</a></div>
+				<div class="list-item nav2" id="modalButton" onclick="aboutClick()">ABOUT ME</div>
+				<div class="list-item nav3"><a href="CoteChantel_GraphicDesigner_Resume.pdf" target="_blank">RESUME</a></div>
+				<div class="social-mobile">
+					<a target="_blank" href="mailto:hello@chantelcote.com?subject=Let's%20work%20together" class="fa fa-envelope"></a>
+					<a target="_blank" href="https://www.linkedin.com/in/chantel-cote/" class="fa fa-linkedin"></a>
+					<a target="_blank" href="https://www.behance.net/chanteljcote" class="fa fa-behance"></a>
+					<a target="_blank" href="https://www.github.com/cotedesign" class="fa fa-github"></a>
+				</div>
+			</div>
+		</nav>
+		<div id="myModal" class="about-container">
+			<div class="about-me">
+				<div class="fa fa-times" id="closeButton" onclick="closeClick()"></div>
+				<h2>HELLO MY NAME IS CHANTEL COTE.</h2>
+				<h4>I’m a graphic designer with an interest in creating the most memorable, captivating, informative, and intuitive experiences.</h4>
+				<p>Joining together the expectations of the client with the needs of the user is my ultimate goal as a graphic designer. The challenge of finding the most effective and visually appealing way to present the information is one that I love to take on. For fives years, I’ve been helping companies build a stronger presence through creative content, consistent visual identity, and easy to use solutions. I’m also skilled in user interface design, event design, and illustration.</p>
+				<p>I'd love to hear from you.</p>
+				<p class="email-link">Message me at <a target="_blank" href="mailto:hello@chantelcote.com?subject=Let's%20work%20together">hello@chantelcote.com</a></p>
+				<br><br><a href="CoteChantel_GraphicDesigner_Resume.pdf" target="_blank" class="view-resume">VIEW RESUME</a>
+			</div>
+		</div>
+	</header>
+<!-- start of project -->
+	<div  id="projectspage" class="projectspage-wrapper">
+		<div class="main-img" id="assorted-img"></div>
+		<div class="section-lines"></div>
+		<div class="intro-details">
+			<div class="float-left">
+				<h1>ASSORTED EMAILS</h1>
+				<h4>Illustration &amp; Art Direction</h4>
+				<p>Title Source is a large title insurance company incorporated with Quicken Loans. They have regular internal competitions and events to create a fun workspace for their employees. During my time there I illustrated and designed multiple emails in collaboration with the event organizer.</p>
+			</div>
+			<div class="float-right">
+				<h3>Illustrator</h3>
+				<h3>Photoshop</h3>
+				<h3>HTML/CSS</h3>
+				<h3>Dreamweaver</h3>
+			</div>
+		</div>
+		<div class="center-div">
+			<img class="p-imgs" src="img/Emails-HolidayParty.png" alt="holiday party emails">
+		</div>
+		<div class="center-div">
+			<img class="p-imgs" src="img/Emails-BookDrive.png" alt="book drive email">
+		</div>
+		<div class="center-div">
+			<img class="p-imgs" src="img/Emails-Newsletter.png" alt="newsletter email">
+		</div>
+		<div class="center-div">
+			<img class="p-imgs" src="img/Emails-TicketGiveaway.png" alt="ticket giveaway emails">
+		</div>
+		<div class="nextProject">
+			<a href="software-icons.html"><span class="fa fa-angle-left" id="previousArrow"></span></a>
+			<span class="oval3" id="previous"></span>
+			<a href="index.html"><span class="fa fa-angle-right" id="nextArrow"></span></a>
+			<span class="oval" id="next"></span>
+		</div>
+	</div>
+</body>
+</html>
