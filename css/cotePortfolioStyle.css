@@ -1,0 +1,1366 @@
+
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+}
+
+/*-- Titles style --*/
+	p{
+		font-family: 'Judson', serif;
+		font-size: 12pt;
+		color: #333333;
+		line-height: 20px;
+	}
+
+	p a{
+		color: #333333;;
+	}
+	p a:hover{
+		color: #0B78A7;
+		cursor: pointer;
+	}
+
+	p a:active{
+		color: #0B78A7;
+	}
+
+/*-- Body Container --*/
+
+	.projectspage-wrapper{
+		width: 100%;
+		height: 100%;
+		background-color: #ffffff;
+		top: 0px;
+	}
+
+/*-- Navigation --*/
+
+	.fa {
+		font-size: 30px;
+		width: 40px;
+		text-align: center;
+		text-decoration: none;
+		color: #0B78A7;
+		position: relative;
+		z-index: 1500;
+	}
+	.fa:hover {
+		opacity: .7;
+	}
+
+	.menu-dropbtn {
+		display: inline-block;
+		cursor: pointer;
+		float: right;
+		padding-right: 25px;
+		padding-top: 19px;
+	}
+
+	.bars {
+		position: absolute;
+		z-index: 4;
+	}
+	.bar1, .bar2, .bar3 {
+		width: 25px;
+		height: 3px;
+		border-radius: 4px;
+		background-color: #3A8DB1;
+		margin: 5px 0;
+		transition: 0.3s;
+	}
+	.change .bar1 {
+		-webkit-transform: rotate(-45deg) translate(-6px, 6px);
+		transform: rotate(-45deg) translate(-6px, 6px);
+	}
+	.change .bar2 {
+		opacity: 0;
+	}
+	.change .bar3 {
+		-webkit-transform: rotate(45deg) translate(-5px, -5px);
+		transform: rotate(45deg) translate(-5px, -5px);
+	}
+
+	.menu-oval{
+		width: 35px;
+		height: 30px;
+		background-color: #1743B1;
+		border-radius: 100%;
+		transform: rotate(-45deg);
+		z-index: 3;
+	}
+
+/*-- Home Page Display [not complete] --*/
+
+	/*.display {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: auto;
+		z-index: 5;
+	}*/
+
+/*-- About Me button [not complete] --*/
+
+		/*.about {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 30px;
+			font-weight: 300;
+			border: none;
+			height: 70px;
+			width: 600px;
+			background-color: #1743B1;
+			color: #ffffff;
+			padding: 22px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			margin: 25px 2px;
+			cursor: pointer;
+			position: absolute;
+			z-index: 8;
+		}
+
+		.about:hover {
+			background-color: #4566B9;
+		} */
+		.view-resume {
+			text-decoration: none;
+			color: #FF7906;
+		}
+		.email-link a{
+			text-decoration: none;
+			color: #333333;;
+		}
+		.email-link a:hover{
+			text-decoration: none;
+			color: #0B78A7;
+			cursor: pointer;
+		}
+
+		.email-link a:active{
+			text-decoration: none;
+			color: #0B78A7;
+		}
+
+		.view-resume {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 14pt;
+			color: #1743B1;
+		}
+			
+		.view-resume:hover {
+			color: #0B78A7;
+			cursor: pointer;
+		}
+		.view-resume:active {
+			color: #0B78A7;
+		}
+
+		#closeButton {
+			float: right;
+			position: relative;
+			top: -32px;
+			right: -44px;
+			cursor: pointer;
+		}
+
+/*-- click arrow to move down [not complete] --*/
+
+	/*.scroll {
+		border-left: 70px solid transparent;
+		border-right: 70px solid transparent;
+		border-top: 70px solid #FF7906;
+		z-index: 800;
+		position: fixed;
+		bottom: 0;
+		display: block;
+		right: -70px;
+		margin-left: 50%;
+		margin-right: 50%;
+	}*/
+
+	/*#globalNav {
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		z-index:5000;
+		height: 426px;
+		width: 100%;
+		color: #1743B1;
+		-webkit-transition: height .5s, line-height .5s;
+		transition: height .5s, line-height .5s;
+	}
+
+	#nav-container {
+		display: block;
+		height: 350px;
+		background-color: #ffffff;
+		-webkit-transition: all .5s;
+		transition: all .5s;
+	}*/
+
+/*-- Sections --*/
+
+	#invia-brand-img {
+		background-image: url('../img/INVIA-Branding-Main.png');
+		background-size: cover;
+	}
+	#holiday-img {
+		background-image: url('../img/Holiday-Party-Main.png');
+		background-size: cover;
+	}
+	#portfolio-img{
+		background-image: url('../img/Portfolio-Main.png');
+		background-size: cover;
+	}
+	#upgrade-img{
+		background-image: url('../img/4DM-Upgrade-Main.png');
+		background-size: cover;
+	}
+	#icons-img{
+		background-image: url('../img/4DM-Icons-Main.png');
+		background-size: cover;
+	}
+	#demo-img{
+		background-image: url('../img/INVIA-Branding-Main.png');
+		background-size: cover;
+	}
+	#assorted-img {
+		background-image: url('../img/Emails-Main.png');
+		background-size: cover;
+	}
+	.nav-line {
+		height: 1px;
+		width: 100%;
+		background-color:#E0E0E0; 
+	}
+	.section-lines {
+		height: 1px;
+		width: 100%;
+		background-color:#E0E0E0;
+	}
+	.project-img {
+		background-color: #f0f0f0;
+		width: 100%;
+		height: 100%;
+		display: absolute;
+		z-index: 350;
+		opacity: .6;
+	}
+	.project-img:hover {
+		opacity: .8;
+		cursor: pointer;
+	}
+
+	/* view more oval */
+	.view-more {
+		width: 90px;
+		right: 30px;
+		bottom: 120px;
+		z-index: 550;
+		position: absolute;
+	}
+
+	.oval {
+		height: 95px;
+		width: 85px;
+		border-radius: 100%;
+		background-color: #1743B1;
+		transform: rotate(45deg);
+		position: absolute;
+		z-index: 400;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	}
+	.oval2 {
+		color: #ffffff;
+		position: absolute;
+		z-index: 450;
+		margin-top: 20px;
+		margin-right: 6px;
+		padding: 0px;
+	}
+	.view-more h4 {
+		font-size: 16pt;
+		text-align: center;
+		font-weight: 300;
+		line-height: 1.3em;
+	}
+
+/*-- Applies to All Project Pages */
+	.main-img {
+			width: 100%;
+			height: 50vh;
+	}
+	.center-div {
+		margin: 0 auto;
+		width: 100%;
+		position: relative;
+	}
+	
+	.p-imgs {
+		display: block;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nextProject {
+		overflow: hidden;
+		position: fixed;
+		bottom: 0px;
+		width: 100%;
+		height: 150px;
+	}
+	.nextProject a {
+		font-size: 40pt;
+	}
+	#previousArrow {
+		height: 80px;
+		width: 70px;
+		padding-top: 10px;
+		color: #ffffff;
+		display: block;
+		position: absolute;
+		left: 35px;
+		bottom: 63px;
+	}
+	#previousArrow:hover {
+		opacity: 1;
+		font-size: 45pt;
+		left: 35px;
+		bottom: 67px;
+	}
+	#previous {
+		display: block;
+		position: absolute;
+		left: 40px;
+		bottom: 65px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	}
+	#nextArrow {
+		height: 90px;
+		width: 80px;
+		padding-top: 10px;
+		color: #ffffff;
+		display: block;
+		position: absolute;
+		right: 30px;
+		bottom: 50px;
+	}
+	#nextArrow:hover {
+		opacity: 1;
+		font-size: 45pt;
+		right: 30px;
+		bottom: 55px;
+	}
+	#next {
+		display: block;
+		position: absolute;
+		right: 30px;
+	}
+
+/*-- INVIA Brand & Content Page*/
+	#video-div {
+		padding-bottom: 100px;
+		padding-top: 50px;
+	}
+	/*1920 x 1080
+	1440 x 810
+  	960 x 540 (this is half-size)
+  	480 x 270*/
+
+  	#boothText {
+  		padding-top: 150px;
+  	}
+
+/*-- This Portfolio Website Page*/
+	#CodeLink {
+		padding-top: 200px;
+		padding-bottom: 200px;
+		text-align: center;
+	}
+
+	#CodeLink a {
+		color: #1743B1;
+		text-decoration: none;
+	}
+	#CodeLink a:hover {
+		color: #0B78A7;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+
+	#CodeLink a:active {
+		color: #0B78A7;
+		text-decoration: underline;
+	}
+
+/*-- Product Upgrade Page*/
+	
+	#up-description {
+		width: 100%;
+		height: 500px;
+	}
+	.underline {
+		height: 1px;
+		width: 100%;
+		background-color: #0B78A7; 
+	}
+
+	.details-div ul {
+		font-family: 'Judson', serif;
+		font-size: 12pt;
+		color: #333333;
+		line-height: 22px;
+		padding-bottom: 30px;
+	}
+	.details-div li {
+		padding-bottom: 15px;
+	}
+	#last-div {
+		margin-bottom: 150px;
+	}
+	.secondary-text{
+		color: #333333;
+		font-family: 'Judson', serif;
+	}
+
+/*-- Software Icons Page*/
+
+	.backgroundColor {
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		background-color: #E0E0E0;
+		z-index: -1;
+	}
+	.buttonsContainer {
+		position: absolute;
+		width: 215px;
+		height: 450px;
+		top: 23%;
+		right: 9%;
+	}
+	.colorButtons {
+		height: 50px;
+		width: 150px;
+		transform: skew(20deg);
+		border: 0.5pt solid #242424;
+		margin: 20px auto;
+		display: block;
+	}
+	#colorInvia {
+		background-color: #ffffff;
+	}
+	.backgroundColor1 {
+		border-radius: 7px;
+		width: 705px;
+		height: 580px;
+		position: absolute;
+		bottom: 42px;
+		left: 78px;
+		background-color: #ffffff;
+		z-index: -1;
+	}
+	#color2 {
+		background-color: #E0E0E0;
+	}
+	.backgroundColor2 {
+		border-radius: 7px;
+		width: 705px;
+		height: 580px;
+		position: absolute;
+		bottom: 42px;
+		left: 78px;
+		background-color: #ffffff;
+		z-index: -1;
+	}
+	#color3 {
+		background-color: #E0E0E0;
+
+	}
+	.backgroundColor3 {
+		border-radius: 7px;
+		width: 705px;
+		height: 580px;
+		position: absolute;
+		bottom: 42px;
+		left: 78px;
+		background-color: #ffffff;
+		z-index: -1;
+	}
+	#color4 {
+		background-color: #E0E0E0;
+
+	}
+	.backgroundColor4 {
+		border-radius: 7px;
+		width: 705px;
+		height: 580px;
+		position: absolute;
+		bottom: 42px;
+		left: 78px;
+		background-color: #ffffff;
+		z-index: -1;
+	}
+	#color5 {
+		background-color: #E0E0E0;
+
+	}
+	.backgroundColor5 {
+		border-radius: 7px;
+		width: 705px;
+		height: 580px;
+		position: absolute;
+		bottom: 42px;
+		left: 78px;
+		background-color: #ffffff;
+		z-index: -1;
+	}
+	#color6 {
+		background-color: #E0E0E0;
+
+	}
+	.backgroundColor6 {
+		border-radius: 7px;
+		width: 705px;
+		height: 580px;
+		position: absolute;
+		bottom: 42px;
+		left: 78px;
+		background-color: #000000;
+		z-index: -1;
+	}
+
+
+@media screen and (min-width: 900px){
+
+	/*-- Body Container --*/
+		body {
+			margin: 0px;
+			padding-top: 580px;
+			background-color: #ffffff;
+		}
+		#projectspage {
+			margin: -263px 0px 0px 0px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+
+	/*-- Titles style --*/
+		h1 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 50pt;
+			color: #1743B1;
+			margin-top: 0.25em;
+			margin-bottom: 0.25em;
+		}
+		h2 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 27pt;
+			color: #1743B1;
+			line-height: 47pt;
+			margin-top: 0.45em;
+			margin-bottom: 0.25em;
+		}
+		h3 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 22pt;
+			color: #1743B1;
+			line-height: 32pt;
+			margin-top: 0.45em;
+			margin-bottom: 0.25em;
+		}
+		h4 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 16pt;
+			color: #0B78A7;
+			line-height: 25pt;
+			margin-top: 0.35em;
+			margin-bottom: 0.25em;
+		}
+
+	/*-- Navigation --*/	
+
+		#globalNav {
+			position: fixed;
+			top: 0;
+			z-index:5000;
+			width: 100%;
+			color: #1743B1;
+			-webkit-transition: height .5s, line-height .5s;
+			transition: height .5s, line-height .5s;
+		}
+
+		#nav-container {
+			display: block;
+			height: 350px;
+			background-color: #ffffff;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+
+		#nav-logo {
+			width: 300px;
+			margin: auto;
+			display: block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			padding-top: 15px;
+		}
+
+		#site-title {
+			font-weight: 600;
+			text-align: center;
+			line-height: 60px;
+			padding: 0;
+			margin: 0;
+			display: block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+
+		#site-title2 {
+			font-weight: 300;
+			text-align: center;
+			line-height: 35px;
+			padding: 0;
+			margin: 0;
+			display: block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+
+		#pull-left {
+			width: 33.33%;
+			height: 350px;
+			display: inline-block;
+			float: left;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		#pull-middle {
+			width: 33.33%;
+			height: 350px;
+			margin: auto;
+			display: inline-block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		#pull-right {
+			width: 33.33%;
+			height: 350px;
+			display: inline-block;
+			position: fixed;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+
+		.social {
+			padding-left: 25px;
+			padding-top: 25px;
+			margin: 0;
+			display: inline-block;
+		}
+		.social a {
+			margin-bottom: 30px;
+		}
+		.social a:hover {
+			cursor: pointer;
+		}
+
+		.social-mobile {
+			padding-left: 25px;
+			padding-top: 25px;
+			margin: 0;
+			display: none;
+		}
+		.social-mobile a {
+			margin: 0px 20px 30px 20px;
+		}
+		.social-mobile:hover {
+			background-color: #1743B1;
+			cursor: pointer;
+			text-decoration: none;
+		}
+		.social-mobile:active {
+			background-color: #1743B1;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		#navList {
+			display: none;
+			list-style: none;
+			background-color: #1743B1;
+			height: 75px;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		.list-item {
+			list-style: none;
+			display: inline-block;
+			padding-top: 27px;
+			margin: 0px;
+			width: 33.33%;
+			height: 75px;
+			background-color: #1743B1;
+			text-decoration: none;
+			color: #ffffff;
+			text-align: center;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 18pt;
+		}
+		.list-item:hover {
+			background-color: #0B78A7;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		.list-item:active {
+			background-color: #0B78A7;
+			text-decoration: none;
+		}
+
+		.nav-list a {
+			text-decoration: none;
+			color: #ffffff;
+			text-align: center;
+		}
+		.nav1 {
+			float: left;
+		}
+
+		.nav2 {
+			margin: auto;
+		}
+
+		.nav3 {
+			position: fixed;
+		}
+
+	/*-- About Me button --*/
+
+		.about-me {
+			background-color: #ffffff;
+			padding: 50px;
+			width: 810px;
+			height: 675px;
+			margin: 146px auto;
+		}
+
+		#myModal {
+			display: none;
+			position: fixed;
+			z-index: 6000; /* Global nav is at 5000 */
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			overflow: hidden;
+			background-color: rgba( 43, 43, 43, 0.9);
+		}
+
+	/*-- Pagination --*/
+		.pagination-container {
+			width: 15px;
+			height: 235px;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 0;
+			position: fixed;
+			z-index: 500;
+			top: 40%;
+			left: -8px;
+			margin-left: 50%;
+			margin-right: 50%;
+		}
+
+		#projectMenu {
+			display: none;
+			padding: 20;
+			margin: 0 auto;
+		}
+		.pagination a {
+			display: block;
+			padding: 0;
+			background-color: #0B78A7;
+			border-radius: 15px;
+			cursor: pointer;
+			margin-bottom:  20px;
+			margin-left: auto;
+			margin-right: auto;
+			text-decoration: none;
+		}
+		#section1 {
+			height: 15px;
+			width: 15px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			text-decoration: none;
+		}
+
+		#section2 {
+			height: 15px;
+			width: 15px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			text-decoration: none;
+		}
+		#section3 {
+			height: 15px;
+			width: 15px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			text-decoration: none;
+		}
+
+		#section4 {
+			height: 15px;
+			width: 15px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			text-decoration: none;
+		}
+		#section5 {
+			height: 15px;
+			width: 15px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			text-decoration: none;
+		}
+
+		#section6 {
+			height: 15px;
+			width: 15px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			text-decoration: none;
+		}
+		#section7 {
+			height: 15px;
+			width: 15px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			text-decoration: none;
+		}
+
+	/*-- Sections --*/
+
+		.project-info {
+			display: inline-block;
+			float: left;
+			height: 100%;
+			width: 50%;
+			vertical-align: top;
+			padding: 100px 45px 45px 45px;
+			border-right: 1px solid #E0E0E0;
+		}
+		.project-display {
+			display: inline-block;
+			float: right; 
+			height: 100%;
+			width: 50%;
+			vertical-align: top;
+		}
+
+		.container {
+			width: 100%;
+			height: 100vh;
+			overflow: none;
+			position: relative;
+			display: block;
+		}
+		.project-number {
+			height: 100px;
+			width: 90px;
+			top: 125px;
+			left: 65px;
+			position: absolute;
+			z-index: 360;
+		}
+		.first-number {
+			color: #ffffff;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 40px;
+			vertical-align: middle;
+		}
+		.oval3 {
+			background-color: #D3D3D3;
+			height: 80px;
+			width: 68px;
+			border-radius: 100%;
+			transform: rotate(45deg);
+			position: absolute;
+			z-index: 350;
+		}
+
+	/*-- Applies to all project pages --*/
+	
+		.intro-details {
+			max-width: 1220px;
+			height: 550px;
+			position: relative;
+			padding: 80px 100px;
+			margin: 0 auto;
+		}	
+		.float-left {
+			display: inline-block;
+			vertical-align: top;
+			width: 63%;
+			float: left;
+			padding: 0px 30px 0px 0px;
+		}
+		.float-right {
+			display: inline-block;
+			vertical-align: top;
+			width: 27%;
+			float: right;
+			padding: 0px 0px 0px 30px;
+			line-height: 45pt;	
+		}
+
+		.details-div {
+			vertical-align: top;
+			width: 60%;
+			display: inline-block;
+			padding-left: 30px;
+		}
+
+		.details-div2 {
+			vertical-align: top;
+			width: 60%;
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.details-div3 {
+			vertical-align: top;
+			width: 100%;
+			display: inline-block;
+			padding-bottom: 50px;
+		}
+
+		.project-details {
+			max-width: 1220px;
+			height: 100%;
+			position: relative;
+			padding:  50px 100px 50px 100px;
+			margin: auto;
+		}
+
+		.details-img {
+			width: 250px;
+			vertical-align: top;
+			display: inline-block;
+		}
+
+		.text-div {
+			padding: 35px;
+			width: 70%;
+			margin: 0 auto;
+			position: relative;
+		}
+
+	/*-- INVIA Brand & Content Page*/
+		video {
+			border: 1px solid #E0E0E0;
+			display: block;
+			position: relative;
+			width: 960px;
+			height: 540px;
+			margin-left: 50%;
+			margin-right: 50%;
+			right: 480px;
+		}
+
+	/*-- images viewed on web vs. phone --*/
+		.web{
+			display: block;
+		}	
+		.phone {
+			display: none;
+		}
+}
+
+@media screen and (max-width: 900px){
+
+	/*-- Body Container --*/
+		body {
+			margin: 0px;
+			padding-top: 580px;
+			background-color: #ffffff;
+		}
+		#projectspage {
+			margin: -263px 0px 0px 0px;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+
+	/*-- Titles style --*/
+		h1 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 21pt;
+			line-height: 25pt;
+			color: #1743B1;
+			margin-top: 0.25em;
+			margin-bottom: 0.25em;
+		}
+		h2 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 18pt;
+			color: #1743B1;
+			line-height: 47pt;
+			margin-top: 0.45em;
+			margin-bottom: 0.25em;
+		}
+		h3 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 16pt;
+			color: #1743B1;
+			line-height: 32pt;
+			margin-top: 0.45em;
+			margin-bottom: 0.25em;
+		}
+		h4 {
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 14pt;
+			color: #0B78A7;
+			line-height: 25pt;
+			margin-top: 0.35em;
+			margin-bottom: 0.25em;
+		}
+
+	/*-- Navigation --*/	
+		#globalNav {
+			position: fixed;
+			top: 0;
+			z-index:5000;
+			width: 100%;
+			color: #1743B1;
+			-webkit-transition: height .5s, line-height .5s;
+			transition: height .5s, line-height .5s;
+		}
+		#nav-container {
+			display: block;
+			height: 350px;
+			background-color: #ffffff;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}	
+		#nav-logo {
+			width: 300px;
+			margin: auto;
+			display: block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+			padding: 15px 0px;
+		}
+
+		#site-title {
+			font-weight: 600;
+			font-size: 16pt;
+			text-align: center;
+			line-height: 35px;
+			padding: 0;
+			margin: 0;
+			display: block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+
+		#site-title2 {
+			font-weight: 300;
+			font-size: 12pt;
+			text-align: center;
+			line-height: 25px;
+			padding: 0;
+			margin: 0;
+			display: block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		#pull-left {
+			width: 10%;
+			height: 350px;
+			display: block;
+			float: left;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		#pull-middle {
+			width: 80%;
+			height: 350px;
+			margin: auto;
+			display: inline-block;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		#pull-right{
+			width: 10%;
+			height: 350px;
+			display: inline-block;
+			position: fixed;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		.social {
+			padding-left: 20px;
+			padding-top: 25px;
+			margin: 0;
+			display: none;
+		}
+
+		.social-mobile {
+			padding-top: 25px;
+			margin: 0;
+			display: block;
+			float: left;
+			list-style: none;
+			width: 100%;
+			height: 75px;
+			background-color: #1743B1;
+			text-decoration: none;
+			color: #ffffff;
+			text-align: center;
+		}
+		.social-mobile:hover {
+			background-color: #1743B1;
+			color: (255, 255, 255,0.75);
+			text-decoration: none;
+		}
+		.social-mobile:active {
+			background-color: #1743B1;
+			color: (255, 255, 255,0.75);
+			text-decoration: none;
+		}
+		.social-mobile a {
+			display: inline;
+			margin: 0px 20px 30px 20px;
+		}
+
+		#navList {
+			display: none;
+			list-style: none;
+			background-color: #1743B1;
+			height: 75px;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+			-webkit-transition: all .5s;
+			transition: all .5s;
+		}
+		.list-item {
+			list-style: none;
+			display: block;
+			padding-top: 27px;
+			margin: 0px;
+			width: 100%;
+			height: 75px;
+			background-color: #1743B1;
+			text-decoration: none;
+			color: #ffffff;
+			text-align: center;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 18pt;
+		}
+		.list-item:hover {
+			background-color: #0B78A7;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		.list-item:active {
+			background-color: #0B78A7;
+			text-decoration: none;
+		}
+
+		.nav-list a {
+			text-decoration: none;
+			color: #ffffff;
+			text-align: center;
+		}
+		.nav1 {
+			float: left;
+		}
+
+		.nav2 {
+			float: left;
+		}
+
+		.nav3 {
+			float: left;
+		}
+
+	/*-- About Me button --*/
+
+		.about-me {
+			background-color: #ffffff;
+			padding: 50px;
+			width: 70%;
+			max-height: 1200px;
+			margin: 71px auto;
+		}
+
+		#myModal {
+			display: none;
+			position: fixed;
+			z-index: 6000; /* Global nav is at 5000 */
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			overflow: scroll;
+			background-color: rgba( 43, 43, 43, 0.9);
+		}
+
+	/*-- Pagination --*/
+		.pagination-container {
+			display: none;
+		}
+
+	/*-- Sections --*/
+
+		.project-info {
+			display: block;
+			height: 50%;
+			width: 100%;
+			vertical-align: top;
+			padding: 75px 35px 45px 45px;
+			border-bottom: 1px solid #E0E0E0;
+		}
+
+		.project-display {
+			display: block;
+			height: 50%;
+			width: 100%;
+			vertical-align: top;
+		}
+		.container {
+			width: 100%;
+			height: 100vh;
+			overflow: none;
+			position: relative;
+			display: block;
+		}
+		.project-number {
+			height: 100px;
+			width: 90px;
+			top: 100px;
+			left: 65px;
+			position: absolute;
+			z-index: 360;
+		}
+		.first-number {
+			color: #ffffff;
+			font-family: 'Josefin Sans', sans-serif;
+			font-size: 40px;
+			vertical-align: middle;
+		}
+		.oval3 {
+			background-color: #D3D3D3;
+			height: 80px;
+			width: 68px;
+			border-radius: 100%;
+			transform: rotate(45deg);
+			position: absolute;
+			z-index: 350;
+		}
+
+	/*-- Applies to all project pages --*/
+	
+		.intro-details {
+			width: 100%;
+			min-height: 450px;
+			position: relative;
+			padding: 50px 70px;
+			margin: 0 auto;
+		}	
+		.float-left {
+			display: block;
+			vertical-align: top;
+			width: 100%;
+		}
+		.float-right {
+			display: block;
+			vertical-align: top;
+			width: 100%;
+			line-height: 45pt;	
+			padding-top: 30px;
+		}
+		.details-div {
+			vertical-align: top;
+			width: 100%;
+			display: block;
+			padding-top: 30px;
+		}
+
+		.details-div2 {
+			vertical-align: top;
+			width: 100%;
+			display: block;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.details-div3 {
+			vertical-align: top;
+			width: 100%;
+			display: block;
+			padding-bottom: 30px;
+		}
+		.project-details {
+			max-width: 900px;
+			height: 100%;
+			position: relative;
+			padding: 30px 10px 0px 100px;
+			margin: auto;
+
+		}
+		.details-img {
+			width: 250px;
+			vertical-align: top;
+			display: block;
+			margin: auto;
+		}
+		.text-div {
+			padding:  50px 70px;
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+		}
+
+	/*-- INVIA Brand & Content Page*/
+		video {
+			border: 1px solid #E0E0E0;
+			display: block;
+			position: relative;
+			width: 426px;
+			height: 240px;
+			margin-left: 50%;
+			margin-right: 50%;
+			right: 213px;
+		}	
+
+	/*-- images viewed on phone vs. web --*/
+		.web{
+			display: none;
+		}	
+		.phone {
+			display: block;
+		}
+
+}
+
+
+
+
+
+
+
+

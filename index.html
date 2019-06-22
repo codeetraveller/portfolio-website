@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Chantel Cote | Graphic Designer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/cotePortfolioStyle.css">
+	<script src="js/cotePortfolioJavaScript.js"></script>
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="img/favicon-16.png">
+	<link rel="icon" type="image/png" href="img/favicon-32.png">
+	<link rel="icon" type="image/png" href="img/favicon-48.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-touch-icon-152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon-180.png">
+	<link rel="icon" sizes="270x270" href="img/tile-icon-270.png">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Judson" rel="stylesheet">
+	<!-- icon font -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="homepage">
+<!-- top menu/ main navigation-->
+	<header>
+		<nav id="globalNav" class="global-nav">
+			<div id="nav-container">
+				<!-- pull left -->
+				<div id="pull-left">
+					<div class="social">
+						<a target="_blank" href="mailto:hello@chantelcote.com?subject=Let's%20work%20together" class="fa fa-envelope"></a>
+						<a target="_blank" href="https://www.linkedin.com/in/chantel-cote/" class="fa fa-linkedin"></a>
+						<a target="_blank" href="https://www.behance.net/chanteljcote" class="fa fa-behance"></a>
+						<a target="_blank" href="https://www.github.com/cotedesign" class="fa fa-github"></a>
+					</div>
+				</div>
+				<!-- pull middle -->
+				<div id="pull-middle">
+					<a href="index.html"><img src="img/logo-800-gradient.png" id="nav-logo" alt="CC Logo"></a>
+					<h2 id="site-title">CHANTEL COTE</h2>
+					<h4 id="site-title2">Graphic Designer</h4>
+				</div>
+				<!-- pull right -->
+				<div id="pull-right">
+					<div onclick="menuDropdown()" class="menu-dropbtn" id="menuChange">
+						<div class="bars">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+						<div class="menu-oval"></div>
+					</div>
+				</div>
+			</div>
+			<div class="nav-line"></div>
+			<div class="nav-list" id="navList">
+				<div class="list-item nav1"><a href="index.html">HOME</a></div>
+				<div class="list-item nav2" id="modalButton" onclick="aboutClick()">ABOUT ME</div>
+				<div class="list-item nav3"><a target="_blank" href="CoteChantel_GraphicDesigner_Resume.pdf">RESUME</a></div>
+				<div class="social-mobile">
+					<a target="_blank" href="mailto:hello@chantelcote.com?subject=Let's%20work%20together" class="fa fa-envelope"></a>
+					<a target="_blank" href="https://www.linkedin.com/in/chantel-cote/" class="fa fa-linkedin"></a>
+					<a target="_blank" href="https://www.behance.net/chanteljcote" class="fa fa-behance"></a>
+					<a target="_blank" href="https://www.github.com/cotedesign" class="fa fa-github"></a>
+				</div>
+			</div>
+		</nav>
+		<div id="myModal" class="about-container">
+			<div class="about-me">
+				<div class="fa fa-times" id="closeButton" onclick="closeClick()"></div>
+				<h2>HELLO MY NAME IS CHANTEL COTE.</h2>
+				<h4>I’m a graphic designer with an interest in creating the most memorable, captivating, informative, and intuitive experiences.</h4>
+				<p>Joining together the expectations of the client with the needs of the user is my ultimate goal as a graphic designer. The challenge of finding the most effective and visually appealing way to present the information is one that I love to take on. For fives years, I’ve been helping companies build a stronger presence through creative content, consistent visual identity, and easy to use solutions. I’m also skilled in user interface design, event design, and illustration.</p>
+				<p>I'd love to hear from you.</p>
+				<p class="email-link">Message me at <a target="_blank" href="mailto:hello@chantelcote.com?subject=Let's%20work%20together">hello@chantelcote.com</a></p>
+				<br><br><a target="_blank" href="CoteChantel_GraphicDesigner_Resume.pdf" class="view-resume">VIEW RESUME</a>
+			</div>
+		</div>
+	</header>
+<!-- start of main display -->
+	<main id="main">
+		<!-- <div>
+			<img src="img/main-display.png" class="display" alt="CC Logo">
+			<div class="title-name">
+				<h1>Chantel Cote</h1>
+			</div>
+			<div class="title-designer">
+				<h2>Graphic Designer</h2>
+			</div>
+		</div>
+		<button class="about" id="aboutMe">
+			<div>ABOUT ME</div>
+		</button>-->
+<!-- center scroll bar/ project picker -->
+		<div class="pagination-container">
+			<div id="projectMenu" class="pagination">
+				<a href="#inviabrand" id="anchor1" onclick="section1Click()">
+					<div id="section1"></div>
+				</a>
+				<a href="#tsholiday" id="anchor2" onclick="section2Click()">
+					<div id="section2"></div>
+				</a>
+				<a href="#portfolio" id="anchor3" onclick="section3Click()">
+					<div id="section3"></div>
+				</a>
+				<a  href="#upgrade" id="anchor4" onclick="section4Click()">
+				<div id="section4"></div>
+				</a>
+				<a  href="#icons" id="anchor5" onclick="section5Click()">
+					<div id="section5"></div>
+				</a>
+				<!-- <a  href="#demo" id="anchor6" onclick="section6Click()">
+					<div id="section6"></div>
+				</a> -->
+				<a href="#emails" id="anchor7" onclick="section7Click()">
+					<div id="section7"></div>
+				</a>
+			</div>
+		</div> 
+<!-- start of projects -->
+		<div>
+			<div id="projectspage" class="projectspage-wrapper">
+				<section id="section-01" data-title="INVIA Branding" data-url="inviabrand">
+					<div class="section-lines"></div>
+					<div id="inviabrand" class="container">
+						<div class="project-info">
+							<div class="project-number">
+								<span class="first-number">1</span>
+							</div>
+							<div class="oval3"></div>
+							<div class="project-details">
+								<h1>INVIA BRAND &amp; CONTENT</h1>
+								<h4>Branding, Content Creation, &amp; Web</h4>
+							</div>
+						</div>
+						<div class="project-display">
+							<a href="invia-branding.html">
+								<div class="project-img" id="invia-brand-img"></div>
+							</a>
+							<div class="view-more" onclick="moreIcon(this)">
+								<a href="invia-branding.html">
+									<h4 class="oval2">See More</h4>
+									<span class="oval"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="section-lines"></div>
+				<section id="section-02" data-title="Title Source Holiday Event" data-url="tsholiday" class="section-project02">
+				    <div id="tsholiday" class="container">
+						<div class="project-info">
+							<div class="project-number">
+								<span class="first-number">2</span>
+							</div>
+							<div class="oval3"></div>
+							<div class="project-details">
+								<h1>TITLE SOURCE HOLIDAY EVENT</h1>
+								<h4>Art Direction, Illustration, &amp; Print</h4>
+							</div>
+						</div>
+						<div class="project-display">
+							<a href="title-source-holiday-event.html">
+								<div class="project-img" id="holiday-img"></div>
+							</a>
+							<div class="view-more" onclick="moreIcon(this)">
+								<a href="title-source-holiday-event.html">
+									<h4 class="oval2">See More</h4>
+									<span class="oval"></span>
+								</a>
+							</div>	
+						</div>
+					</div>
+				</section>
+				<div class="section-lines"></div>
+				<section id="section-03" data-title="This Portfolio Website" data-url="portfolio" class="section-project03">
+				    <div id="portfolio" class="container">
+						<div class="project-info">
+							<div class="project-number">
+								<span class="first-number">3</span>
+							</div>
+							<div class="oval3"></div>
+							<div class="project-details">
+								<h1>THIS PORTFOLIO WEBSITE</h1>
+								<h4>Front-End Web, UI Design, Branding, &amp; Content Creation </h4>
+							</div>
+						</div>
+						<div class="project-display">
+							<a href="portfolio-website.html">
+								<div class="project-img" id="portfolio-img"></div>
+							</a>
+							<div class="view-more" onclick="moreIcon(this)">
+								<a href="portfolio-website.html">
+									<h4 class="oval2">See More</h4>
+									<span class="oval"></span>
+								</a>
+							</div>	
+						</div>
+					</div>
+				</section>
+				<div class="section-lines"></div>
+				<section id="section-04" data-title="Product Upgrade" data-url="upgrade" class="section-project04">
+				    <div id="upgrade" class="container">
+						<div class="project-info">
+							<div class="project-number">
+								<span class="first-number">4</span>
+							</div>
+							<div class="oval3"></div>
+							<div class="project-details">
+								<h1>PRODUCT UPGRADE</h1>
+								<h4>Project Management, Content Creation, UI &amp; UX Design</h4>
+							</div>
+						</div>
+						<div class="project-display">
+							<a href="product-upgrade.html">
+								<div class="project-img" id="upgrade-img"></div>
+							</a>
+							<div class="view-more" onclick="moreIcon(this)">
+								<a href="product-upgrade.html">
+									<h4 class="oval2">See More</h4>
+									<span class="oval"></span>
+								</a>
+							</div>	
+						</div>
+					</div>
+				</section>
+				<div class="section-lines"></div>
+				<section id="section-05" data-title="Software Icons" data-url="icons" class="section-project05">
+				    <div id="icons" class="container">
+						<div class="project-info">
+							<div class="project-number">
+								<span class="first-number">5</span>
+							</div>
+							<div class="oval3"></div>
+							<div class="project-details">
+								<h1>SOFTWARE ICONS</h1>
+								<h4>UI Design</h4>
+							</div>
+						</div>
+						<div class="project-display">
+							<a href="software-icons.html">
+								<div class="project-img" id="icons-img"></div>
+							</a>
+							<div class="view-more" onclick="moreIcon(this)">
+								<a href="software-icons.html">
+									<h4 class="oval2">See More</h4>
+									<span class="oval"></span>
+								</a>
+							</div>	
+						</div>
+					</div>
+				</section>
+				<!-- <div class="section-lines"></div>
+				<section id="section-06" data-title="Software Demo Interface" data-url="demo" class="section-project06">
+				    <div id="demo" class="container">
+						<div class="project-info">
+							<div class="project-number">
+								<span class="first-number">6</span>
+							</div>
+							<div class="oval3"></div>
+							<div class="project-details">
+								<h1>SOFTWARE DEMO INTERFACE</h1>
+								<h4>UI Design &amp; Content Creation </h4>
+							</div>
+						</div>
+						<div class="project-display">
+							<a href="software-demo-interface.html">
+								<div class="project-img" id="demo-img"></div>
+							</a>
+							<div class="view-more" onclick="moreIcon(this)">
+								<a href="software-demo-interface.html">
+									<h4 class="oval2">See More</h4>
+									<span class="oval"></span>
+								</a>
+							</div>	
+						</div>
+					</div>
+				</section> -->
+				<div class="section-lines"></div>
+				<section id="section-07" data-title="Assorted Emails" data-url="emails" class="section-project07">
+				    <div id="emails" class="container">
+						<div class="project-info">
+							<div class="project-number">
+								<span class="first-number">6</span>
+							</div>
+							<div class="oval3"></div>
+							<div class="project-details">
+								<h1>ASSORTED EMAILS</h1>
+								<h4>Illustration &amp; Art Direction </h4>
+							</div>
+						</div>
+						<div class="project-display">
+							<a href="assorted-emails.html">
+								<div class="project-img" id="assorted-img"></div>
+							</a>
+							<div class="view-more" onclick="moreIcon(this)">
+								<a href="assorted-emails.html">
+									<h4 class="oval2">See More</h4>
+									<span class="oval"></span>
+								</a>
+							</div>	
+						</div>
+					</div>
+				</section>
+			</div>	
+		</div>
+    </main>
+<!-- end of projects -->
+	<!--<footer>
+		<div class="scroll"></div>
+	</footer>-->
+</body>
+</html>
