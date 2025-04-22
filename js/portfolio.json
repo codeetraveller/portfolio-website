@@ -1,0 +1,16 @@
+{
+  "name": "Nama Anda",
+  "bio": "Bio singkat tentang Anda.",
+  "projects": [
+    {
+      "title": "Proyek 1",
+      "description": "Deskripsi singkat proyek 1.",
+      "link": "#"
+    },
+    {
+      "title": "Proyek 2",
+      "description": "Deskripsi singkat proyek 2.",
+      "link": "#"
+    }
+  ]
+}
